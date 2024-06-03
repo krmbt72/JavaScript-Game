@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javascript Adventure - Help Page</title>
+  <link rel="stylesheet" href="help.css" />
+  <script type="text/javascript" src="../help/help.js" defer></script>
+  <script src="../widgets/headers/loadHeader.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Help</h1>
+  </header>
+
+  <main>
+    <div class="section">
+      <button onclick="toggleSection('introduction')" class="accordion">Introduction</button>
+      <div id="introduction" class="panel">
+        <p>Welcome to the Javascript Quiz Game help page! Here you can learn how
+          to navigate through the quiz, answer questions, and use hints to help
+          you when you're stuck.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <button onclick="toggleSection('howToPlay')" class="accordion">How to Play</button>
+      <div id="howToPlay" class="panel">
+        <p>
+          The game consists of a series of Javascript-related questions. Here's
+          how you can play:
+        </p>
+        <ul>
+          <li>Read the question displayed on the screen.</li>
+          <li>Type your answer into the answer box.</li>
+          <li>Click the 'Submit Answer' button to check your answer.</li>
+          <li>If you're correct, you'll move on to the next question!</li>
+          <li>If you're stuck, click the 'Hint' button for a helpful clue.</li>
+          <li>You have two hints for the entire game, so use them wisely!</li>
+          <li>Try to answer all questions correctly to complete the game.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <button onclick="toggleSection('troubleshooting')" class="accordion">Troubleshooting</button>
+      <div id="troubleshooting" class="panel">
+        <p>
+          If you encounter any problems while playing, please try the following
+          steps:
+        </p>
+        <ol>
+          <li>Refresh the page to reset the game.</li>
+          <li>Ensure JavaScript is enabled in your browser settings.</li>
+          <li>
+            Check that you are using a modern browser that supports ES6
+            features.
+          </li>
+          <li>Contact us with a description of the issue if it persists.</li>
+        </ol>
+        <p><b>If you have any other issues you can just contact with us. We will be happy to assist you.</b></p>
+        <p>Mail: <a href="mailto:support@javascriptadventure.com">yusudhan@gmail.com</a></p>
+        <p>Mail: <a href="mailto:support@javascriptadventure.com">kerem@gmail.com</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Javascript Adventure</p>
+  </footer>
+</body>
+
+</html>
